@@ -277,12 +277,12 @@ vendor/bin/hw/vendor.display.color@1.0-service|2ca340c7fd7689ac8ddf36f948fd95a7c
 vendor/bin/mm-pp-dpps|c89656e2349f6c81fe9a26e7c70e304ea77e1079
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
 vendor/lib/libdisp-aba.so|1779aa9d99a04db3ab1b5546bd243ba3ecfc1bb5
-vendor/lib/vendor.display.color@1.0.so|d5f3693e462c1832ea5407ce2eded800641f6d80
+vendor/lib/vendor.display.color@1.0.so|5910d16429426831799379bef45a91fb73f1b96b
 vendor/lib64/libdisp-aba.so|95cafbc303cbf3017c7f10276454ef908b258b1c
-vendor/lib64/vendor.display.color@1.0.so|a41a76b08f60c0e8787d0e5b6a3155f11f58a5fc
-vendor/lib64/vendor.display.color@1.1.so|388404f39cd0c2dd3ea9fc59ee950edf24f78a87
-vendor/lib64/vendor.display.color@1.2.so|da1c83747c7bb4a64cf380bdb889cb811b67bc2e
-vendor/lib64/vendor.display.postproc@1.0.so|f6dae960f3f4eea0d5d36aea4ac0a2e0039691f5
+vendor/lib64/vendor.display.color@1.0.so|346620084ad60243985250d4082945e6b267c501
+vendor/lib64/vendor.display.color@1.1.so|8fda7c6969fa1ea2104c0c3ebb61f89bf3e22c7b
+vendor/lib64/vendor.display.color@1.2.so|796116f179007448a9fe71c63a18b29030322337
+vendor/lib64/vendor.display.postproc@1.0.so|c6e7afb4b638425e68ca7cecd0931369db506851
 
 # Graphics (SDM) - from op3 - PKQ1.181203.001
 vendor/lib/libscalar.so|cad128a6e71195b4ad38494bc0382bf80e1fb0b2
