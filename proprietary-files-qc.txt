@@ -299,8 +299,8 @@ vendor/lib64/libsdmextension.so|d8e738455720e4c1492fcb2f77c030aa8beaa8dd
 vendor/lib64/libtinyxml2_1.so|b743b93bbb47bb2d80322fcfb985b7b8c696fa1b
 
 # Graphics (Vulkan) - from tissot-user 9 PKQ1.180917.001 V10.0.9.0.PDHMIXM release-keys
-vendor/lib/hw/vulkan.msm8953.so|cb71b03698184afedf476227b817105ccafb3aff
-vendor/lib64/hw/vulkan.msm8953.so|156a536638b0f88e9771d06e02a41c2f562b46b2
+vendor/lib/hw/vulkan.msm8953.so|ead0a7aec7b3c915ada84a37f39d67dbf83ca83d
+vendor/lib64/hw/vulkan.msm8953.so|523d51eec83843c5e9b2adaa7da4f84181ac10d7
 
 # Graphics firmware - from Tissot PKQ1.180917.001/V10.0.10.0.PDHMIXM
 vendor/firmware/a506_zap.b00|c45a7b34456844f5deb73e2dce79cbfcfb9ae71c
