@@ -272,17 +272,28 @@ vendor/lib64/librs_adreno_sha1.so|8744d20817a3517e63a2518658206ccf9f57e5dd
 vendor/lib/libhdr_tm.so|37381160c5f44f3974af22fb09f394c0fd1fd3bd
 vendor/lib64/libhdr_tm.so|7a05d56d8305c8df87392b93929949178c336b83
 
-# Graphics (Postprocessing) - from AquariusX2 (Zangya) PKQ1.190118.001/657
+# Graphics (Postprocessing) - LA.UM.7.5.r1-05300-8x96.0
+lib64/vendor.display.color@1.0.so|c07c92c78bf4cf7597cb82ce4ba6c06d65fa7f34
+lib64/vendor.display.postproc@1.0.so|a74485c31efa3bdeb452d8220adabaa3c7c65ed0
+lib64/vendor.qti.hardware.qdutils_disp@1.0.so|80036a2486a49489b870d571c12c7b17918ba021
+lib/vendor.display.color@1.0.so|1d84081b2438e127177baa66a91c9b3e5be8e04a
+lib/vendor.display.postproc@1.0.so|8f6b3da0460daf1100d6be379af5aec69fdb9d3a
+lib/vendor.qti.hardware.qdutils_disp@1.0.so|5e074cf7078fdef00f2e5d46eae7a06239a77078
 vendor/bin/hw/vendor.display.color@1.0-service|2ca340c7fd7689ac8ddf36f948fd95a7cd3bfc2e
-vendor/bin/mm-pp-dpps|c89656e2349f6c81fe9a26e7c70e304ea77e1079
+vendor/bin/mm-pp-dpps|5f658932f117e3bd4f8b1b4bacce4a483001b760
+vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|0c9c3a05e7a1bc1da704f7d0111e1285d478a7c9
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
 vendor/lib/libdisp-aba.so|1779aa9d99a04db3ab1b5546bd243ba3ecfc1bb5
-vendor/lib/vendor.display.color@1.0.so|5910d16429426831799379bef45a91fb73f1b96b
+vendor/lib/vendor.display.color@1.0.so|1d84081b2438e127177baa66a91c9b3e5be8e04a
 vendor/lib64/libdisp-aba.so|95cafbc303cbf3017c7f10276454ef908b258b1c
-vendor/lib64/vendor.display.color@1.0.so|346620084ad60243985250d4082945e6b267c501
-vendor/lib64/vendor.display.color@1.1.so|8fda7c6969fa1ea2104c0c3ebb61f89bf3e22c7b
-vendor/lib64/vendor.display.color@1.2.so|796116f179007448a9fe71c63a18b29030322337
-vendor/lib64/vendor.display.postproc@1.0.so|c6e7afb4b638425e68ca7cecd0931369db506851
+vendor/lib64/vendor.display.color@1.0.so|c07c92c78bf4cf7597cb82ce4ba6c06d65fa7f34
+vendor/lib64/vendor.display.color@1.1.so|685e3a360111244e3f79efab81ff4fae0bd3c79d
+vendor/lib64/vendor.display.color@1.2.so|1850c6ff0ee8da401d7b31a5017dbd4049f88b41
+vendor/lib64/vendor.display.postproc@1.0.so|a74485c31efa3bdeb452d8220adabaa3c7c65ed0
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|80036a2486a49489b870d571c12c7b17918ba021
+vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|5e074cf7078fdef00f2e5d46eae7a06239a77078
+
 
 # Graphics (SDM) - from op3 - PKQ1.181203.001
 vendor/lib/libscalar.so|cad128a6e71195b4ad38494bc0382bf80e1fb0b2
