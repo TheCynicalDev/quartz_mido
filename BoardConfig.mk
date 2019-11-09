@@ -159,6 +159,10 @@ DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_mido
 TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8953
 
+
+# Lineage Hardware
+JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
+
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
