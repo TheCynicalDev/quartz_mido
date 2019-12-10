@@ -35,7 +35,6 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml \
@@ -94,6 +93,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     tinymix
 
+
 # A2DP
 PRODUCT_PACKAGES += \
   audio.a2dp.default \
@@ -126,7 +126,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.msm8953 \
     libmm-qcamera \
-    Snap
+    Camera2
 
 # Consumerir
 PRODUCT_PACKAGES += \
@@ -153,7 +153,9 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiParts \
+    XiaomiDoze \
+    XiaomiDirac
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -320,7 +322,6 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libcnefeatureconfig \
     libxml2 \
-    telephony-ext \
     ims-ext-common_system \
     rild \
     libprotobuf-cpp-full \
@@ -331,7 +332,6 @@ PRODUCT_PACKAGES += \
     ims_ext_common.xml
 
 PRODUCT_BOOT_JARS += \
-    telephony-ext \
     ims-ext-common_system
 
 # Seccomp policy
@@ -401,3 +401,9 @@ PRODUCT_PACKAGES += \
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+#HALS
+PRODUCT_SOONG_NAMESPACES += \
+hardware/qcom-caf/msm8996/audio \
+hardware/qcom-caf/msm8996/media \
+hardware/qcom-caf/msm8996/display

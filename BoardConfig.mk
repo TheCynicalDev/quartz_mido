@@ -47,7 +47,7 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-TARGET_KERNEL_SOURCE := kernel/xiaomi/mido
+TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953
 TARGET_KERNEL_VERSION := 3.18
 
 # ANT
@@ -148,6 +148,11 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 # FM
 BOARD_HAVE_QCOM_FM := true
 
+#HAL
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8996
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8996
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8996
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vendor_framework_compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
@@ -182,6 +187,7 @@ TARGET_HAS_NO_WLAN_STATS := true
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
 TARGET_USES_INTERACTION_BOOST := true
 
+
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
 
@@ -192,6 +198,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.recovery.qcom
 DISABLE_RILD_OEM_HOOK := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 TARGET_USES_OLD_MNC_FORMAT := true
+DISABLE_EAP_PROXY := true
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2019-04-01
@@ -201,6 +208,7 @@ include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SELINUX_IGNORE_NEVERALLOWS := true
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
@@ -222,3 +230,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # Inherit from the proprietary version
 -include vendor/xiaomi/mido/BoardConfigVendor.mk
 -include vendor/xiaomi/msm8953-common/BoardConfigVendor.mk
+
