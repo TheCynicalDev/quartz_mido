@@ -321,6 +321,7 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libcnefeatureconfig \
     libxml2 \
+    telephony-ext \
     ims-ext-common_system \
     rild \
     libprotobuf-cpp-full \
