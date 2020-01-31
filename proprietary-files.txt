@@ -819,6 +819,10 @@ lib64/libfp_client.so:vendor/lib64/libfp_client.so
 lib64/libfpnav.so:vendor/lib64/libfpnav.so
 lib64/libfpservice.so:vendor/lib64/libfpservice.so
 
+#FWK_DETECT
+vendor/lib/libqti_vndfwk_detect.so
+vendor/lib64/libqti_vndfwk_detect.so 
+
 # FM Radio - from LA.UM.8.6.r1-02600-89xx.0
 vendor/bin/fm_qsoc_patches|b288ea0c03e651d6f47c6fe833606f22dd656367
 vendor/bin/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
